@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Ganesh Malleboyina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>HR professional</p>
+            <h1>Hi, I'm <span>Ganesh M</span><br> From Andhra Pradesh</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="bg.1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Ganesh Malleboyina, a dedicated HR professional with over three years of specialized experience in IT recruitment. I have built my career on a strong foundation of sourcing top-tier talent and managing the complete recruitment lifecycle. My focus is on aligning recruitment strategies with organizational goals, ensuring that each placement contributes to long-term success.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>It skills Worked</span><br>Java(full stack,frontend,backend)</li>
+                        <li><span>Testing</span><br>Manual,Automation</li>
+                        <li><span>cloud</span><br>Azure,AWS,Google</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Vipany Global Solutions Pvt.Ltd</li>
+                        <li><span>2019 - 2020</span><br>Covenant India Pvt.Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>MBA from VSU University.</li>
+                        <li><span>2017</span><br>BSA from Acharya Nagarjuna University.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Team Lead</h2>
+                <p>At Vipany Global Solutions, I have grown from a Talent Acquisition Executive into a Team Lead, overseeing end-to-end recruitment processes. My role involves direct client engagement, coordinating with multiple stakeholders, and ensuring that the hiring process—from candidate sourcing to onboarding—is executed seamlessly.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>HR Consultant</h2>
+                <p>Serving as an HR Consultant, I adapted to a dynamic tech environment, providing tailored recruitment solutions that met specific client needs while maintaining high standards of candidate quality.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Talent Acquisition Executive</h2>
+                <p>My early career role as a Talent Acquisition Executive enabled me to develop expertise in candidate screening, interview scheduling, and comprehensive process management, setting the stage for future successes.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg">
+                <div class="layer">
+                    <h3>Full-Cycle Recruitment</h3>
+                    <p>Expertise in managing the complete IT recruitment lifecycle—from requirement analysis and candidate sourcing to conducting interviews and onboarding.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg">
+                <div class="layer">
+                    <h3>Client & Candidate Engagement</h3>
+                    <p>Strong ability to understand client requirements and foster lasting relationships with candidates, ensuring a smooth and transparent recruitment process.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg">
+                <div class="layer">
+                    <h3>Technical Proficiency</h3>
+                    <p>Skilled in using various Applicant Tracking Systems (ATS) such as Ciepal, DarwinBox, and HirePlus, and experienced in sourcing candidates from platforms like Naukri and LinkedIn.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>ganeshmalleboyina.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>984822612</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-malleboyina-b82582195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ganesh M. Made wtih <i class="fas fa-heart"></i> by Me</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
